@@ -66,5 +66,23 @@ namespace Telephone
         {
 
         }
+
+        private void Phone_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Clear();
+            textBox3.Text = "";
+            textBox4.Clear();
+            comboBox1.SelectedIndex = -1;//-1 shows empty the label
+            textBox1.Focus();
+
+
+
+        }
     }
 }
